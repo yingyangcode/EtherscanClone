@@ -1,0 +1,788 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
+@import '../../components/variables.css';
+
+.root {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 0 40px;
+  max-width: var(--max-content-width);
+}
+.serviceBlockV3{
+  padding: 20px;
+}
+.serviceBlockV3 i {
+  color: #fff;
+  float: left;
+  font-size: 50px;
+  margin: 0 20px 20px 0
+}
+.serviceBlockV3 .serviceHeading,.serviceBlockV3 .serviceIn small {
+  color: #fff;
+  opacity: .8;
+  line-height: 1
+}
+
+.serviceBlockV3 .counter,.serviceBlockV3 .serviceIn h4 {
+  color: #fff
+}
+
+.serviceBlockV3 .serviceHeading {
+  font-size: 16px;
+  text-transform: uppercase
+}
+
+.serviceBlockV3 .counter {
+  line-height: 1;
+  font-size: 30px
+}
+
+.serviceBlockV3 .progress {
+  margin-bottom: 7px
+}
+
+.serviceBlockV3 .serviceIn small {
+  font-size: 16px;
+  text-transform: uppercase
+}
+
+.serviceBlockV3 .serviceIn h4 {
+  font-size: 16px;
+  line-height: .8;
+  margin-bottom: 0
+}
+
+.serviceBlockV3 .statistics .headingXS {
+  color: #fff;
+  opacity: .8;
+  font-size: 14px;
+  margin-bottom: 0;
+  margin-top: 5px;
+  text-shadow: none;
+  font-weight: 400;
+  line-height: 27px;
+  font-family: open sans,Arial,sans-serif;
+  display: block;
+  font-size: 1.17em;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+.serviceBlockV3 .statistics small {
+  color: #fff
+}
+
+.serviceBlockV3 .statistics .progress {
+  background: #bbb
+}
+
+.serviceBlockV3 .statistics .progressBarLight {
+  background: #fff
+}
+.serviceBlockBlue{
+  background: #3498db;
+}
+.profile .list-group i {
+  min-width: 20px;
+  margin-right: 5px;
+  text-align: center
+}
+
+.profile .heading-sm-v2 {
+  font-size: 16px
+}
+
+.profileBody {
+  padding: 20px;
+  background: #f7f7f7
+}
+
+
+.profile .notification {
+  overflow: hidden;
+  margin-bottom: 10px;
+  padding: 15px 15px 0 0;
+  border-top: 1px solid #eee
+}
+
+.profile .notification:first-child {
+  border-top: 0
+}
+
+.profile .notification img,.profile .notification i {
+  float: left;
+  margin-right: 10px
+}
+
+.profile .notification img {
+  width: 35px;
+  height: 35px
+}
+
+.profile .notification span {
+  color: #777;
+  display: block
+}
+
+.profile .notification small {
+  color: #999;
+  font-size: 11px
+}
+
+.profile .notification h4 {
+  margin: 0 0 3px;
+  font-size: 14px
+}
+
+.profile .notification p {
+  color: #777;
+  font-size: 12px
+}
+
+
+
+
+.profile .table {
+  background: #fff
+}
+
+.profile .table th {
+  min-width: 100px
+}
+
+.profile .table td {
+  vertical-align: middle
+}
+
+.profile .table h3 {
+  margin-top: 0;
+  font-size: 16px;
+  margin-bottom: 5px
+}
+
+.profile .table a {
+  color: #555
+}
+
+.profile .table-search-v2 td img {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  display: block
+}
+
+.profile .table>thead>tr>th,.profile .table>tbody>tr>th,.profile .table>tfoot>tr>th,.profile .table>thead>tr>td,.profile .table>tbody>tr>td,.profile .table>tfoot>tr>td {
+  padding: 11px
+}
+
+.profile .comment {
+  border-bottom: 1px solid #eee;
+  padding: 15px 15px 5px
+}
+
+.profile .comment img {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-right: 15px
+}
+
+.profile .comment strong {
+  display: block;
+  line-height: 15px;
+  margin-bottom: 3px
+}
+
+.profile .comment p {
+  font-size: 12px;
+  margin-bottom: 0;
+  line-height: 17px
+}
+
+.profile .comment small {
+  color: #bbb;
+  font-weight: 200
+}
+
+.profile .commentList li {
+  color: #999;
+  font-size: 11px
+}
+
+.profile .commentList li a {
+  color: #555
+}
+
+.profile .commentList li a:hover {
+  color: #555;
+  text-decoration: none
+}
+
+.profile .commentList li:hover i {
+  color: #72c02c
+}
+
+.profile .imgPost {
+  position: relative
+}
+
+.profile .imgPost:before {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  position: absolute;
+  background: rgba(0,0,0,.4)
+}
+
+.profile .imgPostIn {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  position: absolute
+}
+
+.profile .imgPostIn h3 {
+  color: #fff;
+  margin: 0 auto;
+  font-weight: 200
+}
+
+.profile .imgPostIn small {
+  color: #999;
+  display: block;
+  margin-bottom: 15px
+}
+
+.profile .imgPostIn p {
+  color: #bbb
+}
+
+.profile .imgPostInList {
+  margin-bottom: 0
+}
+
+.profile .imgPostInList li a,.profile .imgPostInList li a:hover {
+  color: #fff;
+  text-decoration: none
+}
+
+.profile .imgPostInList li a:hover i {
+  color: #72c02c
+}
+
+.profile .media.media-v2 {
+  margin-top: 0;
+  padding: 25px 0 20px;
+  border-top: 1px solid #eee
+}
+
+.profile .media.media-v2:first-child {
+  border-top: 0
+}
+
+.profile .media.media-v2 .media.media-v2 {
+  margin-top: 20px;
+  padding-bottom: 0
+}
+
+.profile .media.media-v2 img.media-object {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px
+}
+
+.profile .media.media-v2 .media-body {
+  overflow: hidden
+}
+
+.profile .media.media-v2 .media-body p {
+  color: #777;
+  line-height: 1.4
+}
+
+.profile .media.media-v2 .media-heading {
+  margin: 0 0 5px;
+  font-size: 13px;
+  position: relative
+}
+
+.profile .media.media-v2 .media-heading a,.profile .media.media-v2 .media-heading a:hover {
+  color: #555
+}
+
+.profile .media.media-v2 .media-heading strong {
+  padding-right: 5px
+}
+
+.profile .media.media-v2 .media-heading small {
+  top: 7px;
+  right: 0;
+  color: #999;
+  font-size: 12px;
+  position: absolute
+}
+
+.profile .resultsList {
+  margin-top: 4px
+}
+
+.profile .resultsList li a {
+  color: #999
+}
+
+.profile i.expandList {
+  color: #777;
+  padding: 5px;
+  min-width: 20px;
+  font-size: 12px;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid #777
+}
+
+.profile i.expandList:hover {
+  color: #999;
+  border-color: #999
+}
+
+.profile .imgUploaded img {
+  width: 120px;
+  height: auto
+}
+
+.alert-blocks {
+  margin: 0 15px 5px;
+  background: #f7f7f7;
+  padding: 10px 10px 13px
+}
+
+.alert-blocks:first-child {
+  margin-top: 15px
+}
+
+.alert-blocks-pending {
+  background: #fffdcc
+}
+
+.alert-blocks-success {
+  background: #e1febc
+}
+
+.alert-blocks-pending {
+  background: #fffdcc
+}
+
+.alert-blocks-error {
+  background: #fee0e0
+}
+
+.alert-blocks-info {
+  background: #e0f3fe
+}
+
+.alert-blocks.alert-dismissable {
+  padding-right: 35px
+}
+
+.alert-blocks i {
+  float: left;
+  margin-right: 15px
+}
+
+.alert-blocks img {
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px
+}
+
+.alert-blocks strong small {
+  color: #a3a3a3;
+  font-weight: 200
+}
+
+.alert-blocks p {
+  color: #999;
+  margin-bottom: 0
+}
+
+.profile .profileBio {
+  background: #fff;
+  position: relative;
+  padding: 15px 10px 5px 15px
+}
+
+.profile .profileBio a {
+  left: 50%;
+  bottom: 20px;
+  margin-left: -60px;
+  text-align: center;
+  position: absolute
+}
+
+.profile .profileBio h2 {
+  margin-top: 0;
+  font-weight: 200
+}
+
+.profile .profileBio span {
+  display: block
+}
+
+.profile .profileBio hr {
+  margin: 12px 0 10px
+}
+
+.profile .pChart {
+  text-align: center
+}
+
+.profile .pChart h3 {
+  line-height: 20px;
+  margin-bottom: 10px
+}
+
+@media(max-width: 450px) {
+  .pChart.col-xs-6 {
+      width:100%
+  }
+}
+
+.profile .timeline-v2.timeline-me:before {
+  left: 19%
+}
+
+.profile .timeline-v2.timeline-me p {
+  margin-bottom: 0
+}
+
+.profile .timeline-v2.timeline-me>li .cbp_tmtime {
+  width: 27%
+}
+
+.profile .timeline-v2.timeline-me>li .cbp_tmicon {
+  left: 19%
+}
+
+.profile .timeline-v2.timeline-me>li .cbp_tmtime span:first-child {
+  color: #585f69;
+  font-size: 16px;
+  text-align: left;
+  line-height: 20px
+}
+
+.profile .timeline-v2.timeline-me>li .cbp_tmtime span:last-child {
+  color: #999;
+  font-size: 14px;
+  text-align: left
+}
+
+.profile .timeline-v2.timeline-me>li .cbp_tmlabel {
+  padding: 0;
+  background: inherit;
+  margin: 0 0 20px 23%
+}
+
+.profile .timeline-v2.timeline-me>li .cbp_tmlabel:after {
+  border-color: inherit
+}
+
+.profile .timeline-v2.timeline-me>li .cbp_tmlabel h2 {
+  margin: 0 auto;
+  font-size: 17px;
+  line-height: 20px;
+  border-bottom: 0
+}
+
+.profile .socialContacts-v2 {
+  margin-bottom: 0
+}
+
+.profile .socialContacts-v2 li {
+  padding: 7px 0;
+  border-top: 1px solid #f0f0f0
+}
+
+.profile .socialContacts-v2 li:first-child {
+  border-top: 0
+}
+
+.profile .socialContacts-v2 li i {
+  font-size: 16px;
+  min-width: 25px;
+  margin-right: 7px;
+  text-align: center;
+  display: inline-block
+}
+
+.profile .socialContacts-v2 li i.tw {
+  color: #159ceb
+}
+
+.profile .socialContacts-v2 li i.fb {
+  color: #4862a3
+}
+
+.profile .socialContacts-v2 li i.sk {
+  color: #00aceb
+}
+
+.profile .socialContacts-v2 li i.gp {
+  color: #dc4a38
+}
+
+.profile .socialContacts-v2 li i.gm {
+  color: #c6574b
+}
+
+.profile .socialContacts-v3 {
+  margin-bottom: 0
+}
+
+.profile .socialContacts-v3 li {
+  padding: 12px 0;
+  border-top: 1px solid #f0f0f0
+}
+
+.profile .socialContacts-v3 li:first-child {
+  padding-top: 0;
+  border-top: 0
+}
+
+.profile .socialContacts-v3 li:last-child {
+  padding-bottom: 0
+}
+
+.profile .socialContacts-v3 li i {
+  color: #fff;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  margin-right: 7px;
+  text-align: center;
+  display: inline-block
+}
+
+.profile .socialContacts-v3 li i.tw {
+  background: #159ceb
+}
+
+.profile .socialContacts-v3 li i.fb {
+  background: #4862a3
+}
+
+.profile .socialContacts-v3 li i.sk {
+  background: #00aceb
+}
+
+.profile .socialContacts-v3 li i.gp {
+  background: #dc4a38
+}
+
+.profile .socialContacts-v3 li i.gm {
+  background: #c6574b
+}
+
+.profile .blogBorder {
+  border: 1px solid #f0f0f0
+}
+
+.profile .profileBlog {
+  padding: 20px;
+  background: #fff
+}
+
+.profile .profileBlog img {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px
+}
+
+.profile .profileBlog hr {
+  margin: 12px 0 10px
+}
+
+.profile .nameLocation {
+  overflow: hidden
+}
+
+.profile .nameLocation strong {
+  color: #555;
+  display: block;
+  font-size: 16px
+}
+
+.profile .nameLocation span a {
+  color: #555
+}
+
+.profile .nameLocation span a:hover {
+  color: #72c02c
+}
+
+.profile .nameLocation span i {
+  color: #72c02c;
+  font-size: 18px;
+  margin-right: 5px
+}
+
+.profile .projects {
+  background: #fff;
+  padding: 20px 20px 10px
+}
+
+.profile .projects h2 {
+  margin: 0 0 5px;
+  font-size: 22px;
+  font-weight: 200
+}
+
+.profile .projects h3 {
+  margin-bottom: 5px
+}
+
+.profile .projects .progress {
+  margin-bottom: 15px
+}
+
+.profile .blogInfo-v2 {
+  margin-left: 0;
+  margin-bottom: 15px
+}
+
+.profile .blogInfo-v2 li {
+  font-size: 12px;
+  padding-left: 8px;
+  line-height: 12px;
+  border-left: 1px solid #eee
+}
+
+.profile .blogInfo-v2 li:first-child {
+  padding-left: 0;
+  border-left: 0
+}
+
+.profile .blogInfo-v2 li i {
+  margin-right: 3px
+}
+
+.profile .projectShare {
+  overflow: hidden;
+  background: #fff;
+  padding: 10px 20px;
+  border-top: 1px solid #eee
+}
+
+.profile .projectShare ul {
+  margin-left: 0;
+  margin-bottom: 0
+}
+
+.profile .commentList-v2 li {
+  color: #999;
+  font-size: 14px;
+  padding: 0 10px 0 0
+}
+
+.profile .commentList-v2 li a {
+  color: #555
+}
+
+.profile .commentList-v2 li i {
+  margin-right: 3px
+}
+
+.profile .commentList-v2 li a:hover {
+  color: #555;
+  text-decoration: none
+}
+
+.profile .commentList-v2 li:hover i {
+  color: #72c02c
+}
+
+.profile .starVote li {
+  padding: 0;
+  font-size: 15px
+}
+
+.profile .timeline-v2:before {
+  background: #eee
+}
+
+.profile .timeline-v2>li .cbp_tmlabel {
+  background: #fff
+}
+
+.profile .timeline-v2>li .cbp_tmlabel:after {
+  border-right-color: #fff
+}
+
+@media screen and (max-width: 767px) {
+  .profile .timeline-v2>li .cbp_tmlabel:after {
+      border-bottom-color:#fff;
+      border-right-color: transparent
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+  .profile .timeline-v2>li .cbp_tmlabel:after {
+      border-bottom-color:#fff;
+      border-right-color: transparent;
+  }
+}
+
+.profile .profileEdit {
+  padding: 20px;
+  background: #fff
+}
+
+.profile .profileEdit h2 {
+  font-weight: 200
+}
+
+.profile .profileEdit dt {
+  text-align: inherit
+}
+
+.profile .profileEdit hr {
+  margin: 17px 0 15px
+}
+
+.profile .tab-content {
+  padding: 0
+}
+
+@media(max-width: 768px) {
+  .profile .tab-v1 .nav-tabs {
+      border-bottom:0
+  }
+}
+
+.profile .skyForm {
+  border: 0
+}
+
+.profile .skyForm .toggleChange i {
+  left: 180px
+}
+
+
+

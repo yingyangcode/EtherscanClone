@@ -1,0 +1,167 @@
+@import '../variables.css';
+
+.root {
+  margin-bottom: 2px
+}
+.container{
+  display: inherit;
+}
+
+.profilePost {
+  background: #fff;
+  margin-bottom: 2px;
+  padding: 7px 7px 7px 0
+}
+
+.profilePost.colorOneone {
+  border-left: 2px solid #72c02c
+}
+
+  .profilePost.colorTwo {
+  border-left: 2px solid #3498db
+}
+
+  .profilePost.colorThree {
+  border-left: 2px solid #e74c3c
+}
+
+  .profilePost.colorFour {
+  border-left: 2px solid #9b6bcc
+}
+
+  .profilePost.colorFive {
+  border-left: 2px solid #555
+}
+
+  .profilePost.colorSix {
+  border-left: 2px solid #f1c40f
+}
+
+  .profilePost.colorSeven {
+  border-left: 2px solid #27d7e7
+}
+
+  .profilePost span.profilePostNumb {
+  float: left;
+  color: #999;
+  font-size: 20px;
+  font-weight: 200;
+  padding: 5px 12px
+}
+
+  .profilePost:hover span.profilePostNumb {
+  color: #72c02c
+}
+
+  .profilePostIn {
+  overflow: hidden
+}
+
+  .profilePostIn h3 a {
+  color: #555;
+  text-transform: uppercase
+}
+
+  .profilePostIn p {
+  color: #999;
+  margin-bottom: 5px
+}
+.profilePostIn  a {
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.profilePostIn h3 a {
+  color: #555;
+  text-transform: uppercase;
+}
+.hashTagFrontpage {
+  width: 220px;
+}
+.addressTag {
+  width: 132px;
+}
+.addressTag, .hashTagFrontpage, .shorturlTag1 {
+  white-space:nowrap;
+  display: inline-block;
+  vertical-align: bottom;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.fa{
+  display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.headingSmall{
+  font-size: 18px;
+  line-height: 24px;
+}
+h2 svg{
+  display: inline-block;
+  margin-right: 5px;
+}
+.noBg {
+  background: inherit
+}
+
+
+.panelTitle {
+  font-size: 16px
+}
+.dateFormats {
+  color: #fff;
+  float: left;
+  text-align: center;
+  background: #72c02c;
+  margin: 7px 13px 0 0;
+  padding: 7px 10px 4px
+}
+
+.dateFormats span {
+  display: block;
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 25px
+}
+.headingXS{
+  font-size: 14px;
+  margin-bottom: 0;
+}
+h3.headingXS {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+h3 {
+  display: block;
+  color: #555;
+  margin-top: 5px;
+  text-shadow: none;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+p {
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #999;
+  margin-bottom: 5px;
+}
+a{
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 0!important;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.pullRight{
+  float:right;
+}
+.pullLeft{
+  float:left;
+}

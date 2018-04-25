@@ -1,0 +1,59 @@
+@import '../variables.css';
+
+.root {
+  margin-bottom: 2px
+}
+.container{
+  display: inherit;
+}
+.overflowH{
+  overflow: hidden;
+}
+
+.profileEvent {
+  display: block;
+  background: #fff;
+  padding: 10px 15px;
+  
+}
+
+
+.profileEvent .headingXS {
+  margin-top: 0;
+  text-transform: uppercase
+}
+
+.profileEvent p {
+  color: #999;
+  margin-bottom: 5px
+}
+.profileEvent a{
+font-size: 13px;
+line-height: 1.6;
+}
+.profileEvent .dateFormats {
+  background: gray;
+}
+.dateFormats {
+  color: #fff;
+  float: left;
+  text-align: center;
+  background: #72c02c;
+  margin: 7px 13px 0 0;
+  padding: 7px 10px 4px
+}
+
+.dateFormats span {
+  display: block;
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 25px
+}
+
+.addressTag {
+  width: 132px;
+  display: inline-block;
+  vertical-align: bottom;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

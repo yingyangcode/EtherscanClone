@@ -1,0 +1,6 @@
+{
+  "name": "BlockItem",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./BlockItem.js"
+}

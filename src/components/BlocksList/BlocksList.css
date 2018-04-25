@@ -1,0 +1,106 @@
+@import '../variables.css';
+
+.root {
+  background: inherit;
+}
+
+.container {
+  max-width: var(--max-content-width);
+}
+.panelTitle{
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: inherit;
+}
+.headingSmall{
+  font-size: 18px;
+  line-height: 24px;
+}
+h2 svg{
+  display: inline-block;
+  margin-right: 5px;
+}
+.mCustomScrollbar {
+  height: 320px
+}
+.mCS_autoHide {
+  height: 580px;
+  position: relative;
+  overflow: visible;
+}
+.mCustomScrollBox{
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  max-width: 100%;
+  outline: 0;
+  direction: ltr;
+}
+
+.mCSB_container{
+  overflow: hidden;
+  width: auto;
+  height: auto;
+}
+.mCSB_outside+.mCSB_scrollTools {
+  right: -26px;
+}
+
+
+
+.mCSB_scrollTools, .mCSB_scrollTools .mCSB_buttonDown, .mCSB_scrollTools .mCSB_buttonLeft, .mCSB_scrollTools .mCSB_buttonRight, .mCSB_scrollTools .mCSB_buttonUp, .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  -webkit-transition: opacity .2s ease-in-out,background-color .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out,background-color .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out,background-color .2s ease-in-out;
+  transition: opacity .2s ease-in-out,background-color .2s ease-in-out;
+}
+
+
+
+.mCS_autoHide>.mCustomScrollBox>.mCSB_scrollTools, .mCS_autoHide>.mCustomScrollBox~.mCSB_scrollTools {
+  opacity: 0;
+  filter: "alpha(opacity=0)";
+  -ms-filter: "alpha(opacity=0)";
+}
+
+.mCSB_outside+.mCS_minimal_dark.mCSB_scrollTools_vertical, .mCSB_outside+.mCS_minimal.mCSB_scrollTools_vertical {
+  right: 0;
+  margin: 12px 0;
+}
+
+.panelProfile {
+  border: 0;
+  margin-bottom: 0;
+  box-shadow: none
+}
+
+.panelProfile.noBg {
+  background: inherit
+}
+
+.panelHeading {
+  color: #585f69;
+  background: #fff;
+  padding: 7px 15px;
+  border-bottom: solid 3px #f7f7f7
+}
+
+.panelHeading-v2.overflowH i.pull-right,.panelHeading.overflowH i.pull-right {
+  top: 7px;
+  position: relative
+}
+
+.panelHeading-v2.overflow-h i.pull-right,.panelHeading.overflow-h a i {
+  color: #777
+}
+
+.panelHeading-v2.overflow-h i.pull-right,.panelHeading.overflow-h a:hover i {
+  color: #555
+}
+
+.panelTitle {
+  font-size: 16px
+}
+
+
